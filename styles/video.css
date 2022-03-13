@@ -1,23 +1,12 @@
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.video-grid{
+.video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
-  row-gap: 40px ;
-
+  row-gap: 40px;
 }
 
 .thumbnail {
   width: 100%;
-}
-
-.search-bar {
-  display: block;
 }
 
 .video-title {
@@ -34,30 +23,20 @@ p {
   color: rgb(96, 96, 96);
 }
 
-.video-author{
+.video-author {
   margin-bottom: 4px;
-}
-
-.video-preview {
 }
 
 .thumbnail-row {
   margin-bottom: 12px;
 }
 
-.video-info-grid{
+.video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
-}
-
-.channel-picture {
-
 }
 
 .profile-picyure {
   width: 40px;
   border-radius: 50%;
-}
-
-.video-info {
 }
